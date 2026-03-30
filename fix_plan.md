@@ -20,7 +20,7 @@
 - [x] Implement EF Core entity configurations (fluent API, one per entity) per specs/infrastructure.md
 - [x] Implement CatRepository per specs/infrastructure.md
 - [x] Implement FeedingLogRepository per specs/infrastructure.md
-- [ ] Implement FoodStockRepository per specs/infrastructure.md
+- [x] Implement FoodStockRepository per specs/infrastructure.md
 - [ ] Implement LitterLogRepository per specs/infrastructure.md
 - [ ] Implement WaterLogRepository per specs/infrastructure.md
 - [ ] Implement VetRecordRepository per specs/infrastructure.md

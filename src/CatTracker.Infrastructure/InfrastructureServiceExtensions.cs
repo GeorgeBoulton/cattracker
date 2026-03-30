@@ -1,5 +1,7 @@
+using CatTracker.Domain.Interfaces;
 using CatTracker.Infrastructure.Data;
 using CatTracker.Infrastructure.Identity;
+using CatTracker.Infrastructure.Repositories;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
@@ -19,6 +21,10 @@ public static class InfrastructureServiceExtensions
         services.AddIdentity<ApplicationUser, IdentityRole>()
             .AddEntityFrameworkStores<CatTrackerDbContext>()
             .AddDefaultTokenProviders();
+
+        services.AddScoped<ICatRepository, CatRepository>();
+        services.AddScoped<IFeedingLogRepository, FeedingLogRepository>();
+        services.AddScoped<IFoodStockRepository, FoodStockRepository>();
 
         return services;
     }
