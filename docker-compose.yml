@@ -1,0 +1,38 @@
+version: '3.9'
+
+services:
+  postgres:
+    image: postgres:16-alpine
+    environment:
+      POSTGRES_DB: cattracker
+      POSTGRES_USER: cattracker
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:-cattracker_dev}
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+    ports:
+      - "5432:5432"
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U cattracker -d cattracker"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+
+  web:
+    build:
+      context: .
+      dockerfile: src/CatTracker.Web/Dockerfile
+    environment:
+      - ConnectionStrings__DefaultConnection=Host=postgres;Database=cattracker;Username=cattracker;Password=${POSTGRES_PASSWORD:-cattracker_dev}
+      - SeedAdmin__Email=${SEED_ADMIN_EMAIL:-admin@cattracker.local}
+      - SeedAdmin__Password=${SEED_ADMIN_PASSWORD:-Admin123!}
+      - ASPNETCORE_ENVIRONMENT=Production
+      - ASPNETCORE_URLS=http://+:8080
+    ports:
+      - "5200:8080"
+    depends_on:
+      postgres:
+        condition: service_healthy
+    restart: unless-stopped
+
+volumes:
+  postgres_data:
