@@ -23,7 +23,7 @@
 - [x] Implement FoodStockRepository per specs/infrastructure.md
 - [x] Implement LitterLogRepository per specs/infrastructure.md
 - [x] Implement WaterLogRepository per specs/infrastructure.md
-- [ ] Implement VetRecordRepository per specs/infrastructure.md
+- [x] Implement VetRecordRepository per specs/infrastructure.md
 - [ ] Implement ExpenseRepository per specs/infrastructure.md
 - [ ] Set up ASP.NET Core Identity (ApplicationUser, seeded admin account from config) per specs/infrastructure.md
 - [ ] Register all repositories and DbContext in AddInfrastructure extension method per specs/infrastructure.md
