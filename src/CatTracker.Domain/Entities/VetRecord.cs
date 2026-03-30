@@ -55,4 +55,36 @@ public class VetRecord
             NextDueDate = nextDueDate,
         };
     }
+
+    public void Update(
+        VetRecordType recordType,
+        DateOnly date,
+        string description,
+        string? clinicName = null,
+        string? vetName = null,
+        string? notes = null,
+        decimal? cost = null,
+        DateOnly? nextDueDate = null)
+    {
+        if (string.IsNullOrWhiteSpace(description))
+            throw new ArgumentException("Description is required.", nameof(description));
+
+        if (description.Length > 500)
+            throw new ArgumentException("Description cannot exceed 500 characters.", nameof(description));
+
+        if (clinicName is not null && clinicName.Length > 200)
+            throw new ArgumentException("ClinicName cannot exceed 200 characters.", nameof(clinicName));
+
+        if (vetName is not null && vetName.Length > 200)
+            throw new ArgumentException("VetName cannot exceed 200 characters.", nameof(vetName));
+
+        RecordType = recordType;
+        Date = date;
+        Description = description;
+        ClinicName = clinicName;
+        VetName = vetName;
+        Notes = notes;
+        Cost = cost;
+        NextDueDate = nextDueDate;
+    }
 }

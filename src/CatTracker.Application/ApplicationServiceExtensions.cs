@@ -13,6 +13,7 @@ public static class ApplicationServiceExtensions
         services.AddScoped<IFeedingService, FeedingService>();
         services.AddScoped<ILitterService, LitterService>();
         services.AddScoped<IWaterService, WaterService>();
+        services.AddScoped<IVetService, VetService>();
         services.AddScoped<FoodStockService>();
 
         return services;
