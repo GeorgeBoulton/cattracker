@@ -13,7 +13,7 @@
 - [x] Implement VetRecord entity and VetRecordType enum per specs/domain-model.md
 - [x] Implement Expense entity and ExpenseCategory enum per specs/domain-model.md
 - [x] Implement FoodStockService domain service per specs/domain-model.md
-- [ ] Define all repository interfaces in Domain (ICatRepository, IFeedingLogRepository, IFoodStockRepository, ILitterLogRepository, IWaterLogRepository, IVetRecordRepository, IExpenseRepository) per specs/domain-model.md
+- [x] Define all repository interfaces in Domain (ICatRepository, IFeedingLogRepository, IFoodStockRepository, ILitterLogRepository, IWaterLogRepository, IVetRecordRepository, IExpenseRepository) per specs/domain-model.md
 - [ ] Write domain unit tests for FoodStockService per specs/testing.md
 
 ### Phase 3: Infrastructure layer
