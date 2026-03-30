@@ -27,7 +27,7 @@
 - [x] Implement ExpenseRepository per specs/infrastructure.md
 - [x] Set up ASP.NET Core Identity (ApplicationUser, seeded admin account from config) per specs/infrastructure.md
 - [x] Register all repositories and DbContext in AddInfrastructure extension method per specs/infrastructure.md
-- [ ] Write infrastructure integration tests for all repositories using Testcontainers per specs/testing.md
+- [x] Write infrastructure integration tests for all repositories using Testcontainers per specs/testing.md
 
 ### Phase 4: Application layer
 - [ ] Create DTOs for all entities (request + response DTOs)
@@ -74,4 +74,4 @@
 - Expense recurring auto-log (log next recurrence automatically)
 
 ## Known issues
-(none yet)
+- Web project (CatTracker.Web.csproj) references CatTracker.Infrastructure directly — violates the rule that Web must only reference Application. Program.cs imports Infrastructure namespaces for DI registration (AddInfrastructure, MigrateAsync). Needs a dedicated fix: either expose migration via Application layer, or restructure DI registration so Web only calls Application methods.
