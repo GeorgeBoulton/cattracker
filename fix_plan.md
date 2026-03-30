@@ -7,7 +7,7 @@
 ### Phase 2: Domain layer
 - [x] Implement Cat entity per specs/domain-model.md
 - [x] Implement FeedingLog entity and FoodType enum per specs/domain-model.md
-- [ ] Implement FoodStock entity per specs/domain-model.md
+- [x] Implement FoodStock entity per specs/domain-model.md
 - [ ] Implement LitterLog entity and LitterEntryType enum per specs/domain-model.md
 - [ ] Implement WaterLog entity per specs/domain-model.md
 - [ ] Implement VetRecord entity and VetRecordType enum per specs/domain-model.md
