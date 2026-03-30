@@ -26,6 +26,8 @@ public static class InfrastructureServiceExtensions
         services.AddScoped<IFeedingLogRepository, FeedingLogRepository>();
         services.AddScoped<IFoodStockRepository, FoodStockRepository>();
 
+        services.AddScoped<AdminSeeder>();
+
         return services;
     }
 }
