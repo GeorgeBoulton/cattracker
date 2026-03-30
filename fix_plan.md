@@ -10,7 +10,7 @@
 - [x] Implement FoodStock entity per specs/domain-model.md
 - [x] Implement LitterLog entity and LitterEntryType enum per specs/domain-model.md
 - [x] Implement WaterLog entity per specs/domain-model.md
-- [ ] Implement VetRecord entity and VetRecordType enum per specs/domain-model.md
+- [x] Implement VetRecord entity and VetRecordType enum per specs/domain-model.md
 - [ ] Implement Expense entity and ExpenseCategory enum per specs/domain-model.md
 - [ ] Implement FoodStockService domain service per specs/domain-model.md
 - [ ] Define all repository interfaces in Domain (ICatRepository, IFeedingLogRepository, IFoodStockRepository, ILitterLogRepository, IWaterLogRepository, IVetRecordRepository, IExpenseRepository) per specs/domain-model.md
