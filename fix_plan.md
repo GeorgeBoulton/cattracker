@@ -31,7 +31,7 @@
 
 ### Phase 4: Application layer
 - [x] Create DTOs for all entities (request + response DTOs)
-- [ ] Implement ICatService and CatService (get, update)
+- [x] Implement ICatService and CatService (get, update)
 - [ ] Implement IFeedingService and FeedingService (log feeding, get recent, food stock CRUD, brand autocomplete)
 - [ ] Implement ILitterService and LitterService (log event, get since date, get latest, get latest full change)
 - [ ] Implement IWaterService and WaterService (log clean, get recent, get latest)

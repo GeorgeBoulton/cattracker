@@ -30,4 +30,12 @@ public class Cat
             CreatedAt = DateTime.UtcNow,
         };
     }
+
+    public void Update(string name, string? breed, DateOnly? dateOfBirth, string? photoUrl)
+    {
+        Name = name;
+        Breed = breed;
+        DateOfBirth = dateOfBirth;
+        PhotoUrl = photoUrl;
+    }
 }
