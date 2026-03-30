@@ -34,7 +34,7 @@
 - [x] Implement ICatService and CatService (get, update)
 - [x] Implement IFeedingService and FeedingService (log feeding, get recent, food stock CRUD, brand autocomplete)
 - [x] Implement ILitterService and LitterService (log event, get since date, get latest, get latest full change)
-- [ ] Implement IWaterService and WaterService (log clean, get recent, get latest)
+- [x] Implement IWaterService and WaterService (log clean, get recent, get latest)
 - [ ] Implement IVetService and VetService (CRUD, get upcoming within date range)
 - [ ] Implement IExpenseService and ExpenseService (CRUD, get by date range, monthly totals by category)
 - [ ] Register all services in AddApplication extension method
