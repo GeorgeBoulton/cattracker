@@ -4,7 +4,6 @@
 
 ### Phase 1: Solution scaffolding
 - [x] Create solution and all project skeletons with correct dependencies (Domain has zero refs to other projects) per specs/overview.md
-- [ ] Configure EF Core DbContext (CatTrackerDbContext extending IdentityDbContext) and initial migration per specs/infrastructure.md
 - [ ] Set up test projects with NUnit + Awesome Assertions + AutoFixture + NSubstitute per specs/testing.md
 
 ### Phase 2: Domain layer
@@ -66,6 +65,7 @@
 ## Completed
 - [x] Create solution and all project skeletons with correct dependencies (Domain has zero refs to other projects) per specs/overview.md
 - [x] Set up docker-compose.yml with Postgres and Web containers per specs/overview.md
+- [x] Configure EF Core DbContext (CatTrackerDbContext extending IdentityDbContext) and initial migration per specs/infrastructure.md
 
 ## Backlog
 (items deferred to future work)
