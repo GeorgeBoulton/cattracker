@@ -41,7 +41,7 @@
 - [x] Write application unit tests for all services per specs/testing.md
 
 ### Phase 5: Blazor frontend
-- [ ] Set up Web project with DI (call AddApplication and AddInfrastructure in Program.cs)
+- [x] Set up Web project with DI (call AddApplication and AddInfrastructure in Program.cs)
 - [ ] Configure ASP.NET Core Identity cookie auth and login page per specs/blazor-frontend.md
 - [ ] Apply [Authorize] to all pages; redirect unauthenticated to /login per specs/blazor-frontend.md
 - [ ] Build navigation layout (top nav / sidebar, Luna's name, logout button) per specs/blazor-frontend.md
