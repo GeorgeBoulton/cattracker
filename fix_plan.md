@@ -5,7 +5,7 @@
 ### Phase 1: Solution scaffolding
 - [x] Create solution and all project skeletons with correct dependencies (Domain has zero refs to other projects) per specs/overview.md
 ### Phase 2: Domain layer
-- [ ] Implement Cat entity per specs/domain-model.md
+- [x] Implement Cat entity per specs/domain-model.md
 - [ ] Implement FeedingLog entity and FoodType enum per specs/domain-model.md
 - [ ] Implement FoodStock entity per specs/domain-model.md
 - [ ] Implement LitterLog entity and LitterEntryType enum per specs/domain-model.md
