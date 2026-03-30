@@ -42,4 +42,12 @@ public class FoodStock
         QuantityGrams = quantityGrams;
         UpdatedAt = DateTime.UtcNow;
     }
+
+    public void Update(decimal quantityGrams, decimal dailyUsageGrams, int lowStockThresholdDays)
+    {
+        QuantityGrams = quantityGrams;
+        DailyUsageGrams = dailyUsageGrams;
+        LowStockThresholdDays = lowStockThresholdDays;
+        UpdatedAt = DateTime.UtcNow;
+    }
 }
