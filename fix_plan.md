@@ -21,7 +21,7 @@
 - [x] Implement CatRepository per specs/infrastructure.md
 - [x] Implement FeedingLogRepository per specs/infrastructure.md
 - [x] Implement FoodStockRepository per specs/infrastructure.md
-- [ ] Implement LitterLogRepository per specs/infrastructure.md
+- [x] Implement LitterLogRepository per specs/infrastructure.md
 - [ ] Implement WaterLogRepository per specs/infrastructure.md
 - [ ] Implement VetRecordRepository per specs/infrastructure.md
 - [ ] Implement ExpenseRepository per specs/infrastructure.md
