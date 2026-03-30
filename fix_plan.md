@@ -38,7 +38,7 @@
 - [x] Implement IVetService and VetService (CRUD, get upcoming within date range)
 - [x] Implement IExpenseService and ExpenseService (CRUD, get by date range, monthly totals by category)
 - [x] Register all services in AddApplication extension method
-- [ ] Write application unit tests for all services per specs/testing.md
+- [x] Write application unit tests for all services per specs/testing.md
 
 ### Phase 5: Blazor frontend
 - [ ] Set up Web project with DI (call AddApplication and AddInfrastructure in Program.cs)
@@ -61,6 +61,7 @@
 - [ ] Verify full docker-compose up works end-to-end
 
 ## Completed
+- [x] Write application unit tests for all services per specs/testing.md
 - [x] Implement IExpenseService and ExpenseService (CRUD, get by date range, monthly totals by category)
 - [x] Register all services in AddApplication extension method
 - [x] Set up test projects with NUnit + Awesome Assertions + AutoFixture + NSubstitute per specs/testing.md
