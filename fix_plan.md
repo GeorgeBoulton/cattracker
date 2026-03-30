@@ -17,7 +17,7 @@
 - [x] Write domain unit tests for FoodStockService per specs/testing.md
 
 ### Phase 3: Infrastructure layer
-- [ ] Implement EF Core entity configurations (fluent API, one per entity) per specs/infrastructure.md
+- [x] Implement EF Core entity configurations (fluent API, one per entity) per specs/infrastructure.md
 - [ ] Implement CatRepository per specs/infrastructure.md
 - [ ] Implement FeedingLogRepository per specs/infrastructure.md
 - [ ] Implement FoodStockRepository per specs/infrastructure.md
