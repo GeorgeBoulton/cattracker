@@ -30,7 +30,7 @@
 - [x] Write infrastructure integration tests for all repositories using Testcontainers per specs/testing.md
 
 ### Phase 4: Application layer
-- [ ] Create DTOs for all entities (request + response DTOs)
+- [x] Create DTOs for all entities (request + response DTOs)
 - [ ] Implement ICatService and CatService (get, update)
 - [ ] Implement IFeedingService and FeedingService (log feeding, get recent, food stock CRUD, brand autocomplete)
 - [ ] Implement ILitterService and LitterService (log event, get since date, get latest, get latest full change)
