@@ -2,6 +2,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\CatTracker.Application\CatTracker.Application.csproj" />
+    <ProjectReference Include="..\CatTracker.Infrastructure\CatTracker.Infrastructure.csproj" />
   </ItemGroup>
 
   <ItemGroup>

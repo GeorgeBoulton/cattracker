@@ -25,6 +25,10 @@ public static class InfrastructureServiceExtensions
         services.AddScoped<ICatRepository, CatRepository>();
         services.AddScoped<IFeedingLogRepository, FeedingLogRepository>();
         services.AddScoped<IFoodStockRepository, FoodStockRepository>();
+        services.AddScoped<ILitterLogRepository, LitterLogRepository>();
+        services.AddScoped<IWaterLogRepository, WaterLogRepository>();
+        services.AddScoped<IVetRecordRepository, VetRecordRepository>();
+        services.AddScoped<IExpenseRepository, ExpenseRepository>();
 
         services.AddScoped<AdminSeeder>();
 
