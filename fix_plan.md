@@ -36,8 +36,8 @@
 - [x] Implement ILitterService and LitterService (log event, get since date, get latest, get latest full change)
 - [x] Implement IWaterService and WaterService (log clean, get recent, get latest)
 - [x] Implement IVetService and VetService (CRUD, get upcoming within date range)
-- [ ] Implement IExpenseService and ExpenseService (CRUD, get by date range, monthly totals by category)
-- [ ] Register all services in AddApplication extension method
+- [x] Implement IExpenseService and ExpenseService (CRUD, get by date range, monthly totals by category)
+- [x] Register all services in AddApplication extension method
 - [ ] Write application unit tests for all services per specs/testing.md
 
 ### Phase 5: Blazor frontend
@@ -61,6 +61,8 @@
 - [ ] Verify full docker-compose up works end-to-end
 
 ## Completed
+- [x] Implement IExpenseService and ExpenseService (CRUD, get by date range, monthly totals by category)
+- [x] Register all services in AddApplication extension method
 - [x] Set up test projects with NUnit + Awesome Assertions + AutoFixture + NSubstitute per specs/testing.md
 - [x] Create solution and all project skeletons with correct dependencies (Domain has zero refs to other projects) per specs/overview.md
 - [x] Set up docker-compose.yml with Postgres and Web containers per specs/overview.md

@@ -14,6 +14,7 @@ public static class ApplicationServiceExtensions
         services.AddScoped<ILitterService, LitterService>();
         services.AddScoped<IWaterService, WaterService>();
         services.AddScoped<IVetService, VetService>();
+        services.AddScoped<IExpenseService, ExpenseService>();
         services.AddScoped<FoodStockService>();
 
         return services;
